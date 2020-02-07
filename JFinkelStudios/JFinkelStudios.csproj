@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>4629a98c-88b7-4d02-b08b-687a252c893c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\Home\About\css\**" />
+    <Compile Remove="wwwroot\Home\HowIStarted\css\**" />
+    <Compile Remove="wwwroot\Home\Resume\css\**" />
+    <Content Remove="wwwroot\Home\About\css\**" />
+    <Content Remove="wwwroot\Home\HowIStarted\css\**" />
+    <Content Remove="wwwroot\Home\Resume\css\**" />
+    <EmbeddedResource Remove="wwwroot\Home\About\css\**" />
+    <EmbeddedResource Remove="wwwroot\Home\HowIStarted\css\**" />
+    <EmbeddedResource Remove="wwwroot\Home\Resume\css\**" />
+    <None Remove="wwwroot\Home\About\css\**" />
+    <None Remove="wwwroot\Home\HowIStarted\css\**" />
+    <None Remove="wwwroot\Home\Resume\css\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.AzureKeyVault.HostingStartup" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>

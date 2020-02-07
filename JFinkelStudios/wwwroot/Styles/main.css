@@ -1,0 +1,412 @@
+/* SCSS Styles */
+@-moz-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@-webkit-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@-moz-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@-webkit-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+header #header-container {
+  background: linear-gradient(to bottom right, #222021, #404040);
+  border-top: #7E191B groove 2px;
+  outline: none;
+}
+header #header-container #header-title {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 900;
+  color: #FFFAFA;
+}
+header #header-container #home-link {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: #588BAE;
+}
+header #header-container #home-link:hover {
+  color: aquamarine;
+}
+
+main .section-container {
+  margin: 5px;
+  font-size: 19px;
+  font-family: Calibri;
+  color: #222021;
+  font-weight: 900;
+}
+main .section-container #github-link {
+  text-decoration: none;
+  color: inherit;
+}
+main .section-container #github-link:hover {
+  color: aquamarine;
+}
+main .section-container #resume-header-container #title {
+  margin-top: -25px;
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 29px;
+  border-radius: 2px;
+  border-left: #000000 groove 2px;
+  border-right: #000000 groove 2px;
+  border-bottom: #000000 groove 2px;
+}
+main .section-container #resume-header-container #address-info {
+  float: left;
+  text-decoration: none;
+  color: inherit;
+}
+main .section-container #resume-header-container #address-info:hover {
+  color: aquamarine;
+}
+main .section-container #resume-header-container #contact-info {
+  text-decoration: none;
+  color: inherit;
+  float: right;
+}
+
+@-moz-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@-webkit-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+body {
+  box-sizing: content-box;
+  overflow-x: hidden;
+  margin: auto;
+  background-image: url("../../Images/Home_Mountain.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 1200px;
+  min-width: 400px;
+  max-height: 900px;
+  min-height: 250px;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 400;
+  color: #00BFFF;
+}
+
+header hr {
+  border: none;
+}
+header .nav {
+  padding: 25px;
+  background: linear-gradient(to bottom right, #222021, #404040);
+  color: #00FFFF;
+  border: 6px ridge white;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  display: block;
+  opacity: 0.7;
+}
+header .nav .registration-links {
+  float: right;
+}
+header .nav a {
+  overflow: hidden;
+  text-decoration: none;
+  padding: 30px;
+  color: #00FFFF;
+  font-size: 25px;
+}
+header .nav a:hover {
+  color: beige;
+  background-color: #282828;
+}
+
+main {
+  margin: 15px;
+}
+main .img-1, main .img-2, main .img-3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main .img-1 {
+  background-image: url("../../Images/Home_Mountain.jpg");
+  min-height: 400px;
+}
+main .img-2 {
+  background-image: url("../../Images/Home_Mountain.jpg");
+  min-height: 400px;
+}
+main .img-3 {
+  background-image: url("../../Images/Home_Mountain.jpg");
+  min-height: 400px;
+}
+main .section {
+  text-align: center;
+  padding: 50px 80px;
+}
+main .section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+main .section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+main .ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+main .ptext .border {
+  padding: 20px;
+}
+main .ptxt .border.trans {
+  background-color: transparent;
+}
+
+@-moz-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@-webkit-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+header #header-container {
+  background: linear-gradient(to bottom right, #222021, #404040);
+  border-top: #7E191B groove 2px;
+  outline: none;
+}
+header #header-container #header-title {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 900;
+  color: #FFFAFA;
+}
+header #header-container #home-link {
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f0ffff;
+}
+header #header-container #home-link:hover {
+  color: beige;
+  background-color: transparent;
+}
+
+main .container {
+  border: 5px ridge #404040;
+  background: linear-gradient(to bottom right, #575154, #404040);
+  padding: 5px;
+  margin: 15px;
+  color: azure;
+  font-family: Arial;
+  font-size: 21px;
+  text-rendering: auto;
+  -webkit-animation: slide-straight-left;
+  -webkit-animation-duration: 4s;
+  -moz-animation-name: slide-straight-left;
+  -moz-animation-duration: 4s;
+}
+@-moz-keyframes slide-straight-left {
+  0% {
+    transform: skew(53deg) translateX(-100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@-webkit-keyframes slide-straight-left {
+  0% {
+    transform: skew(53deg) translateX(-100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+main .container #chapter_1-paragraph {
+  text-align: center;
+}
+main .container #chapter_1-paragraph:hover {
+  animation: move-letters 2s ease-in-out;
+  animation-delay: 2s;
+}
+@keyframes move-letters {
+  0% {
+    letter-spacing: 2px;
+  }
+}
+main .container #chapter_2-paragraph {
+  text-align: center;
+}
+main .container #chapter_2-paragraph:hover {
+  animation: move-letters 2s ease-in-out;
+  animation-delay: 2s;
+}
+@keyframes move-letters {
+  0% {
+    letter-spacing: 2px;
+  }
+}
+main .container #chapter_3-paragraph {
+  text-align: center;
+}
+main .container #chapter_3-paragraph:hover {
+  animation: move-letters 2s ease-in-out;
+  animation-delay: 2s;
+}
+@keyframes move-letters {
+  0% {
+    letter-spacing: 2px;
+  }
+}
+
+@-moz-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+@-webkit-keyframes slide-straight-right {
+  0% {
+    transform: skew(53deg) translateX(100%);
+  }
+  100% {
+    transform: skew(0deg);
+  }
+}
+header #header-container {
+  background: linear-gradient(to bottom right, #222021, #404040);
+  border-top: #7E191B groove 2px;
+  outline: none;
+}
+header #header-container #header-title {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 900;
+  color: #FFFAFA;
+}
+header #header-container a {
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f0ffff;
+}
+header #header-container a:hover {
+  color: beige;
+  background-color: transparent;
+}
+
+main {
+  /* Style the button that is used to open and close the collapsible content */
+  /* Style the collapsible content. Note: hidden by default */
+}
+main .container {
+  position: relative;
+  bottom: -50px;
+  margin-top: 15px;
+  padding: 5px;
+  outline: none;
+}
+main .collapsible-section {
+  background: linear-gradient(to bottom right, #222021, #404040);
+  color: #f0ffff;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  height: 125px;
+  border-radius: 3.5px;
+  outline: none;
+  border-top: none;
+  font-size: 25px;
+  text-align: center;
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), 
+      and when you move the mouse over it (hover) */
+}
+main .collapsible-section:hover {
+  border-top: #7E191B groove 3px;
+}
+main .collapsible-section:active, main .collapsible-section hover {
+  background-color: #ccc;
+  color: #F5F5DC;
+}
+main .content {
+  font-size: 20px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #484848;
+}
+main .content .text {
+  color: #f0ffff;
+}
+
+body {
+  max-width: 1200px;
+  min-width: 400px;
+  max-height: 900px;
+  min-height: 250px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

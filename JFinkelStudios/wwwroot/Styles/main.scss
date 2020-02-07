@@ -1,0 +1,12 @@
+﻿/* SCSS Styles */
+@import '_Mixins.scss';
+@import '_Colors.scss';
+@import '../Home/Resume/resume.scss';
+@import '../Home/Index/index.scss';
+@import '../Home/HowIStarted/howIstarted.scss';
+@import '../Home/About/about.scss';
+body {
+    @include configBody_Weight_Height();
+    margin: auto;
+}
+
