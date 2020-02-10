@@ -1,6 +1,5 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 <html>
-<!--ADDED-->
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="content-type" content="text/html" />
@@ -8,28 +7,25 @@
     <meta name="description" content="Main Home Page" />
     <meta name="Developer" content="Denis J Finkel" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--BootStrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="~/Styles/main.css">
     <title>About</title>
 </head>
 <body>
+    <!--HEADER-->
     <header>
         <div id="header-container">
             <h1 id="header-title">About Me</h1>
             <a id="home-link" asp-action="Index">←Home</a>
         </div>
     </header>
+    <!--MAIN-->
     <main>
         <!-- ADD THE HTML CONTENT -->
         <section class="container">
             <button type="button" class="collapsible-section">The Education</button>
             <div class="content">
                 <p class="text">
-                    I am Currently in college at TSTC and Pursuing My degree in Software Development.
-                    I will graduate in May of 2020. When everything said and done, I will be
-                    looking forward to work for a great company. I'm excited what the
-                    future holds for me and the opportunities that are in arms reach.
+                    I am currently in college at TSTC (Texas State Technical College) in Marshall, TX. I am pursuing my degree in Software Development. I will graduate in May of 2020. I look forward to working for a “great” company. I’m excited about the opportunities the future holds for me!
                 </p>
             </div>
         </section>
@@ -39,30 +35,21 @@
             <button type="button" class="collapsible-section">The Journey</button>
             <div class="content">
                 <p class="text">
-                    My, Time in TSTC has been long and wonderful and I'am ready to move on to something better.
-                    I've learned valuable things throughout my semester at TSTC that I know will
-                    help me in my career. I’ve learned that listening
-                    other's opinions can widen your point of view. Furthermore,
-                    I've learned that can’t let your frustration become an enemy of yourself.
-                    Lastly, the most important one of all is that there are no mistakes,
-                    only lessons we need to master.
+                    I have enjoyed TSTC and have gained a lot of knowledge in the area of software development.  This knowledge will be invaluable as I pursue my career.  I’ve learned that listening to others’ opinions can change my point of view and can lead me down a different path. I’ve also learned that frustration can be a valuable tool in solving problems. One of the important lessons I’ve learned is that mistakes become new learnings and always stretch my thinking.
                 </p>
             </div>
         </section>
+
+
         <section class="container">
             <button type="button" class="collapsible-section">The Interest</button>
             <div class="content">
                 <p class="text">
-                    I belive every single person on this earth has
-                    some type of interest they persue. For me however, I
-                    have an interest to learn new things. whether thats
-                    a new foregin language, random information that I'm curious about
-                    and how it all works, or even new things about software development.
-                    I like learning new things. Moreover, I feel like every time I learn something new
-                    one step closer to better version of myself. Knowledge is truely power.
+                    It's my belief that everyone has something they are passionate about.  My passion is learning, whether it’s a new foreign language, figuring out how something works, or new things about software development.  I feel that every time I learn something new I am one step closer to a better version of myself.  Knowledge is truly power!
                 </p>
             </div>
         </section>
+
     </main>
     <script src="~/Home/About/index.js"></script>
 </body>
