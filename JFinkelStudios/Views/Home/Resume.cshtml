@@ -1,4 +1,6 @@
-﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{string heart_icon = "<span class='fas fa-heart'></span>"; }
+<!--UPDATED-->
 <html>
 <head>
     <meta charset="UTF-8" />
@@ -8,6 +10,7 @@
     <meta name="Developer" content="Denis J Finkel" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="~/Styles/main.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Resume</title>
 </head>
 <body>
@@ -52,9 +55,9 @@
             <div>
                 <h2 id="summery-qualifications"><strong><u>Summary of Qualifications</u></strong></h2>
                 <ul>
-                    <li>Current student at Texas State Technical College (TSTC) enrolled in the Software Development program.</li>
+                    <li>Graduate of Texas State Technical College with an Associate of Applied Science degree in Software Development. </li>
                     <li>
-                        I am looking for a job opportunity with a company that is cutting edge. I'm hoping that your company is interested in offering me an opportunity where I am able to use my talent.
+                        Looking for an opportunity with a company that is cutting edge. I am hoping that you’re interested in offering me an opportunity that will become a future career where I am able to use my talent and skills.
                     </li>
                 </ul>
             </div>
@@ -66,7 +69,7 @@
                 <p>
                     <em>
                         <strong>Associate of Applied Science</strong>
-                        &ndash; Software Development&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;April 2020
+                        &ndash; Software Development&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May 2020
                     </em>
                 </p>
                 <p>Texas State Technical College &ndash; Marshall, TX</p>
@@ -79,26 +82,29 @@
             <div>
                 <h2><strong><u>Skills</u></strong></h2>
                 <ul>
-                    <li>Java</li>
-                    <li>Swift</li>
-                    <li>HTML/CSS</li>
+                    <li>Creating software applications in mobile, web and more</li>
+                    <li>Open to the opportunity to share, collaborate and create new software applications</li>
+                    <li>Highly motivated to learn</li>
+                    <li>Willing to expand my existing knowledge</li>
+                    <li>Java & Android @Html.Raw(heart_icon)</li>
+                    <li>HTML/CSS/SCSS</li>
                     <li>JavaScript</li>
                     <li>PHP</li>
-                    <li>C#</li>
+                    <li>C# & .NET @Html.Raw(heart_icon)</li>
                     <li>SQL</li>
-                    <li>Azure (SQL Server, Key vault)</li>
+                    <li>Azure (App-Services)</li>
                 </ul>
             </div>
         </section>
         <section class="section-container">
+            <!--Experience-->
             <div>
                 <h2><strong><u>Experience</u></strong></h2>
-                <p><strong>Developing Software Applications&nbsp;&nbsp;</strong></p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Class Software Projects</p>
-                <p><strong>Creating Software Applications</strong></p>
+                <p><strong>Developing Software Applications</strong></p>
                 <ul>
-                    <li>My Web and Mobile Software Applications</li>
-                    <li>Published My Website with Azure App Services [http://jfinkel.net]</li>
+                    <li>Class Software Projects</li>
+                    <li>Creating My Own Software Applications</li>
+                    <li>Published My Own Website:  www.jfinkel.net OR jfinkel.azurewebsites.net</li>
                     <li>
                         <strong>
                             <a id="github-link" href="https://github.com/JFinkel7?tab=repositories">GitHub Projects</a>
@@ -109,6 +115,7 @@
         </section>
         <p>&nbsp;</p>
     </main>
+    <!--Footer-->
     <footer>
         <div id="empty-block"></div>
     </footer>
