@@ -2,33 +2,34 @@
 @import '../../Styles/_Colors.scss';
 //<========================= Index =========================>
 
+
 header {
     background: linear-gradient(to bottom right,$black_Charcoal,$black_Grey1);
     border: 2px solid $black_Charcoal; //Blackish2
-    padding: 35px;
-
-    nav {
-        font-family: 'Times New Roman';
-        letter-spacing: 2px;
-        position: center;
-        text-align: center;
-        //border: 2px solid #ffd800; //test
-
-        a {
-            text-decoration: none;
-            color: #f0ffff; // Azure
-            font-size: 20px;
-            padding: 25px;
-
-
-            &:hover {
-                color: beige;
-                background-color: transparent;
-            }
-        }
-    }
+    text-align: center;
+    padding: 25px;
 }
 
+
+
+/* Style the links inside the navigation bar */
+nav a {
+    font-family: 'Times New Roman';
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 17px;
+    float: none;
+    color: #f0ffff; // Azure
+}
+
+/* Change the color of links on hover */
+nav a:hover {
+    color: beige;
+    background-color: transparent;
+}
 
 
 body {
@@ -40,4 +41,6 @@ body {
 }
 
 
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 

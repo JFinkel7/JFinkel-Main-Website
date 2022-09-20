@@ -26,12 +26,11 @@
 <body>
     <!--Header-->
     <header>
-
-        <nav>
-            <span class="nav-links"><a asp-action="About">About Me</a></span>
-            <span class="nav-links"><a asp-action="MyStory">My Story</a></span>
-            <span class="nav-links"><a asp-action="Resume">Resume</a></span>
-            <span class="nav-links"><a href="#">Coming Soon</a></span>
+        <nav>         
+                <a asp-action="About">About Me</a>              
+                <a asp-action="MyStory">My Story</a>             
+                <a asp-action="Resume">Resume</a>                
+            @*    <a href="#">Coming Soon</a>  *@                    
         </nav>
 
     </header>
@@ -39,7 +38,12 @@
     <!--Main-->
     <main>
         <h2>Welcome to Denis J Finkel's Website....</h2>
-        <h4>Thank you for taking your time to read about me.</h4>
+        <h3>Thank you for taking your time to read about me.</h3>
+        <h5><em>note: This website URL was redirected from my domain name JFinkel.net </em></h5>
     </main>
+
+    <footer>
+        <h5>&copy; 2020-2022 Denis J Finkel. All Rights Reserved.</h5>
+    </footer>
 </body>
 </html>
