@@ -1,0 +1,103 @@
+﻿@import '../../Styles/_Mixins.scss';
+@import '../../Styles/_Colors.scss';
+//<========================= HowIStarted =========================>
+$lightenBlackCharcoal: lighten($black_Charcoal,20%);
+$darkenBlackCharcoal: darken($black_Charcoal,20%);
+
+// Header
+header {
+    #header-container {
+        background: linear-gradient(to bottom right,$black_Charcoal,$black_Grey1);
+        border: 2px solid $black_Charcoal; //Blackish2
+        outline: none;
+
+
+        #header-title {
+            text-align: center;
+            font-family: 'Times New Roman';
+            font-size: 35px;
+            letter-spacing: 2px;
+            font-weight: 900;
+            color: $Snow;
+        }
+
+        // Home
+        #home-link {
+            font-size: 22px;
+            text-decoration: none;
+            color: $Azure;
+
+            &:hover {
+                color: aquamarine;
+            }
+        }
+    }
+}
+
+// Main
+main {
+
+
+    .container {
+        background: linear-gradient(to bottom right,$black_Charcoal,$black_Grey1);
+        border: 2px solid $black_Charcoal; //Blackish2
+        @include slideInStraightLeft;
+        text-rendering: auto;
+        border-radius: 3.5px;
+        font-family: Arial;
+        font-size: 21px;
+        color: #f0ffff; // Azure
+        padding: 5px;
+        margin: 15px;
+
+
+
+
+        .container-title {
+            //background: linear-gradient(to bottom right,$black_Charcoal,$black_Grey1);
+            //border: 2px solid $black_Charcoal; //Blackish2
+            font-size: 25px;
+            display: inline-block;
+            font-family: inherit;
+            text-align: center;
+            color: beige;
+        }
+
+        #chapter_1-paragraph {
+            text-align: center;
+            color: whitesmoke;
+            @include animateLetterSpacing;
+
+            /*&:hover {
+                @include animateLetterSpacing;
+            }*/
+        }
+
+        #chapter_2-paragraph {
+            text-align: center;
+            @include animateLetterSpacing;
+
+            /*&:hover {
+                //@include animateLetterSpacing;
+            }*/
+        }
+
+        #chapter_3-paragraph {
+            text-align: center;
+            @include animateLetterSpacing;
+
+            /*&:hover {
+                //@include animateLetterSpacing;
+            }*/
+        }
+    }
+}
+
+body {
+    box-sizing: content-box;
+    overflow-x: hidden;
+    font-weight: 400;
+    color: #00BFFF;
+    margin: auto;
+    @include configBody_Weight_Height();
+}

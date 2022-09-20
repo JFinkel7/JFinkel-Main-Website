@@ -7,16 +7,16 @@
 
   <ItemGroup>
     <Compile Remove="wwwroot\Home\About\css\**" />
-    <Compile Remove="wwwroot\Home\HowIStarted\css\**" />
+    <Compile Remove="wwwroot\Home\MyStory\css\**" />
     <Compile Remove="wwwroot\Home\Resume\css\**" />
     <Content Remove="wwwroot\Home\About\css\**" />
-    <Content Remove="wwwroot\Home\HowIStarted\css\**" />
+    <Content Remove="wwwroot\Home\MyStory\css\**" />
     <Content Remove="wwwroot\Home\Resume\css\**" />
     <EmbeddedResource Remove="wwwroot\Home\About\css\**" />
-    <EmbeddedResource Remove="wwwroot\Home\HowIStarted\css\**" />
+    <EmbeddedResource Remove="wwwroot\Home\MyStory\css\**" />
     <EmbeddedResource Remove="wwwroot\Home\Resume\css\**" />
     <None Remove="wwwroot\Home\About\css\**" />
-    <None Remove="wwwroot\Home\HowIStarted\css\**" />
+    <None Remove="wwwroot\Home\MyStory\css\**" />
     <None Remove="wwwroot\Home\Resume\css\**" />
   </ItemGroup>
 
@@ -31,6 +31,52 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Home\About\about.css">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>about.scss</DependentUpon>
+    </Content>
+    <Content Update="wwwroot\Home\About\about.scss">
+      <Generator>SassTranspiler</Generator>
+      <LastGenOutput>about.css</LastGenOutput>
+    </Content>
+    <Content Update="wwwroot\Home\Index\index.css">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>index.scss</DependentUpon>
+    </Content>
+    <Content Update="wwwroot\Home\Index\index.scss">
+      <Generator>SassTranspiler</Generator>
+      <LastGenOutput>index.css</LastGenOutput>
+    </Content>
+    <Content Update="wwwroot\Home\MyStory\MyStory.css">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MyStory.scss</DependentUpon>
+    </Content>
+    <Content Update="wwwroot\Home\MyStory\MyStory.scss">
+      <Generator>SassTranspiler</Generator>
+      <LastGenOutput>MyStory.css</LastGenOutput>
+    </Content>
+    <Content Update="wwwroot\Home\Resume\resume.css">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>resume.scss</DependentUpon>
+    </Content>
+    <Content Update="wwwroot\Home\Resume\resume.scss">
+      <Generator>SassTranspiler</Generator>
+      <LastGenOutput>resume.css</LastGenOutput>
+    </Content>
+    <Content Update="wwwroot\Styles\main.scss">
+      <Generator>SassTranspiler</Generator>
+    </Content>
   </ItemGroup>
 
 </Project>

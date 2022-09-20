@@ -2,7 +2,7 @@
     /*
     * Software Developer: Denis J Finkel
     * Launch Date: February 9th, 2020
-    * Updated Date: May 7th, 2020
+    * Updated Date: 9/20/22
     * Description: Personal Website
     * Tools: Azure
     * App Uses: Azure Cloud Service
@@ -18,83 +18,28 @@
     <meta name="description" content="Main Home Page" />
     <meta name="Developer" content="Denis J Finkel" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="~/Styles/main.css">
+    <link rel="stylesheet" type="text/css" href="~/Home/Index/index.css">
     <!--Icon library-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">*@
     <title>Home</title>
 </head>
 <body>
     <!--Header-->
-    <header class="img-1">
-        <div class="header-container">
-            <div class="border">
-                <div class="nav">
-                    <nav>
-                        <span class="nav-links"><a asp-action="About" asp-controller="Home">About Me</a></span>
-                        <span class="nav-links"><a asp-action="HowIStarted">How I Started</a></span>
-                        <span class="nav-links"><a asp-action="Resume">Resume</a></span>
-                        <span class="nav-links"><a href="#">Coming Soon</a></span>
-                    </nav>
-                </div>
-            </div>
-        </div>
+    <header>
+
+        <nav>
+            <span class="nav-links"><a asp-action="About">About Me</a></span>
+            <span class="nav-links"><a asp-action="MyStory">My Story</a></span>
+            <span class="nav-links"><a asp-action="Resume">Resume</a></span>
+            <span class="nav-links"><a href="#">Coming Soon</a></span>
+        </nav>
+
     </header>
-    <hr />
-    <!--MAIN-->
+
+    <!--Main-->
     <main>
-        <!--section-1-->
-        <section class="section section-dark">
-            <h1>
-            </h1>
-        </section>
-
-        <section class="img-1">
-            <div class="ptext">
-                <div class="border">
-                    <h5>
-                        <span>
-                            the dream
-                        </span>
-                    </h5>
-                </div>
-            </div>
-        </section>
-        <!--section-2--->
-        <section class="section section-dark">
-            <h2>BEGIN</h2>
-            <p>Forever</p>
-        </section>
-
-        <section class="img-2">
-            <div class="ptext">
-                <div class="border">
-                    <h5>
-                        <span>
-                            <!--NEW-->
-                            the journey
-                        </span>
-                    </h5>
-                </div>
-            </div>
-        </section>
-        <!--section-3--->
-        <section class="section section-dark">
-            <h2>AGAIN</h2>
-            <p>Forever</p>
-        </section>
-
-        <section class="img-3">
-            <div class="ptext">
-                <div class="border">
-                    <div>
-                        <h5>
-                            <span>the life</span>
-                        </h5>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <h2>Welcome to Denis J Finkel's Website....</h2>
+        <h4>Thank you for taking your time to read about me.</h4>
     </main>
-    <!--<>-->
 </body>
 </html>

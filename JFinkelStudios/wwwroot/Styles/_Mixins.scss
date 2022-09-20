@@ -52,14 +52,19 @@
     }
 }
 
+
 @mixin animateLetterSpacing() {
-    animation: move-letters 2s ease-in-out;
-    animation-delay: 2s;
+    
+    animation: move-letters 4s ease-in-out;
+
+
 
     @keyframes move-letters {
         0% {
             letter-spacing: 2px;
+            color: #080808; // Blackish 2
         }
+      
     }
 }
 

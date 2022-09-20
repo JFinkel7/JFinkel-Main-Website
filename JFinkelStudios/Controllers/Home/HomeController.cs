@@ -20,7 +20,7 @@ namespace JFinkelStudios.Controllers.Home {
 
         // ADDED 
         [HttpGet]
-        public IActionResult HowIStarted() {
+        public IActionResult MyStory() {
             return View();
 
         }

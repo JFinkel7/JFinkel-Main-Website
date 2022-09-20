@@ -4,7 +4,7 @@
 header {
     #header-container {
         background: linear-gradient(to bottom right,$black_Charcoal,$black_Grey1);
-        border-top: $red_Vermilion groove 2px;
+        border: 2px solid $black_Charcoal; //Blackish2
         outline: none;
 
         #header-title {
@@ -12,21 +12,18 @@ header {
             font-family: 'Times New Roman';
             font-size: 35px;
             letter-spacing: 2px;
-            font-style: italic;
+            font-style: normal;
             font-weight: 900;
             color: $Snow;
         }
-
-
+        // Home
         a {
-            text-align: left;
             text-decoration: none;
-            font-size: 20px;
+            font-size: 22px;
             color: $Azure;
 
             &:hover {
-                color: beige;
-                background-color: transparent;
+                color: aquamarine;
             }
         }
     }
@@ -69,12 +66,29 @@ main {
     .content {
         font-size: 20px;
         padding: 0 18px;
-        display: none;
-        overflow: hidden;
+        display: none; // none is needed in order for js to work
+        overflow: hidden;       
         // Drop Down Content Background
         background-color: $black_Grey0;
+
         .text {
             color: $Azure
         }
+
+        video {
+            /* override other styles to make responsive */
+            width: 100% !important;
+            height: auto !important;
+        }
     }
+}
+
+
+body {
+    box-sizing: content-box;
+    overflow-x: hidden;
+    font-weight: 400;
+    color: #00BFFF;
+    margin: auto;
+    @include configBody_Weight_Height();
 }
