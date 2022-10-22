@@ -34,10 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Images\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Update="wwwroot\Home\About\about.css">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -74,9 +70,22 @@
       <Generator>SassTranspiler</Generator>
       <LastGenOutput>resume.css</LastGenOutput>
     </Content>
+    <Content Update="wwwroot\Styles\main.css">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
     <Content Update="wwwroot\Styles\main.scss">
       <Generator>SassTranspiler</Generator>
+      <LastGenOutput>main.css</LastGenOutput>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Home\Index\index.scss">
+      <Generator>SassTranspiler</Generator>
+      <LastGenOutput>index.css</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

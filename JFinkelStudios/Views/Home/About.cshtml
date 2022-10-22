@@ -5,17 +5,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="content-type" content="text/html" />
     <meta name="keywords" content="Home Page" />
-    <meta name="description" content="Main Home Page" />
+    <meta name="description" content="About Me Home Page" />
     <meta name="Developer" content="Denis J Finkel" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="~/Home/About/about.css">
-    <title>About</title>
+    <title>My Work</title>
 </head>
 <body>
     <!--HEADER-->
     <header>
         <div id="header-container">
-            <h1 id="header-title">About Me</h1>
+            <h1 id="header-title">My Work</h1>
             <a id="home-link" asp-action="Index">Home</a>
         </div>
     </header>
@@ -23,34 +23,50 @@
     <main>
         <!--The Education-->
         <section class="container">
-            <button type="button" class="collapsible-section">The Education</button>
+            <button type="button" class="collapsible-section">Whats Next</button>
             <div class="content">
                 <p class="text">
-                    Graduated Texas State Technical College with an Associate of Applied Science degree in Software Development.
-                    I plan on on continuing my education in the future. 
+                    [Update 1.13] Create Inventory UI System for the main character
                 </p>
+                <p class="text"><a href="https://docs.unrealengine.com/4.27/en-US/API/Runtime/UMG/Components/UWidget/">UWidget</a></p>
+            
             </div>
         </section>
 
         <!--The Journey-->
         <section class="container">
-            <button type="button" class="collapsible-section">UE5 Game Development</button>
+            <button type="button" class="collapsible-section">Game Updates</button>
             <div class="content">
-                <h2 class="text">AI System</h2>
+                <!--Video 1-->
+                <h2 class="text">
+                    UE5 Weapon Equip System and Fire Projectile Capabilities
+                    @*Researching the unknown, creating environments, animations, with deep C++ Logic.*@
+                    <em> note: Click on the video to view ↓</em>
+                </h2>
+                <video controls muted>
+                    <source src="~/Home/About/UE5_WeaponFire.mp4" type="video/mp4">
+                </video>
+
+                <!--Video 2-->
+                <h2 class="text">Implementing AI combat Behavior Tree</h2>
                 <video controls muted>
                     <source src="~/Home/About/AISystem.mp4" type="video/mp4">
                 </video>
-                <h2  class="text">Equip System</h2>
-                <!--video player-->
-                <video controls muted>
-                    <source src="~/Home/About/EquipSystem.mp4" type="video/mp4">
-                </video>
-                <div></div>
-                <h2 class="text">Fire System</h2>
-                <video controls muted>
-                    <source src="~/Home/About/FireSystem.mp4" type="video/mp4">
-                </video>
+
+                <!--Video 2-->
+                <h2 class="text">UI Inventory System <em> (Coming Soon) </em></h2>
+                @*<video controls muted>
+                        <source src="~/Home/About/AISystem.mp4" type="video/mp4">
+                    </video>*@
+
+                @*<h2 class="text">Designing and implementing software applications on multiple platforms.</h2>
+                    <video controls muted>
+                        <source src="~/Home/About/LearnRussian.mp4" type="video/mp4">
+                    </video>*@
+
+
             </div>
+            <!--Break-->
         </section>
 
         <!--The Interest-->

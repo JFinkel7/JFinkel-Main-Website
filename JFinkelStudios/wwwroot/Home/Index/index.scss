@@ -1,8 +1,6 @@
 ﻿@import '../../Styles/_Mixins.scss';
 @import '../../Styles/_Colors.scss';
 //<========================= Index =========================>
-
-
 header {
     background: linear-gradient(to bottom right,$black_Charcoal,$black_Grey1);
     border: 2px solid $black_Charcoal; //Blackish2
@@ -32,12 +30,40 @@ nav a:hover {
 }
 
 
+
+// @New  C:\Users\slyfi\Documents\JFinkelStudios\JFinkel-Main-Website\JFinkelStudios\wwwroot\Images\
+
+main {
+    background: linear-gradient(to bottom right,$black_Charcoal,$black_Grey1);
+    border: 2px solid $black_Charcoal; //Blackish2
+    margin-top: 75px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom: 75px;
+    border-radius: 50px;
+    color: white
+}
+
+
+
 body {
+    background-image: url('../../Images/Ruby-Theme.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     box-sizing: content-box;
-    overflow-x: hidden;
     font-weight: 400;
+    text-align:center;
+    /* overflow-x: hidden;
+  */
     margin: auto;
     @include configBody_Weight_Height();
+}
+
+
+footer {
+    color: beige;
 }
 
 
